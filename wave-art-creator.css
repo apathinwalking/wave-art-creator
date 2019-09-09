@@ -1,0 +1,22 @@
+html, body {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden !important;
+	overflow-x: hidden !important;
+	background-color: #101010;
+}
+
+#artgen {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100vh;
+}
+
+#design-wrap {
+	margin: 20px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
