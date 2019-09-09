@@ -891,10 +891,10 @@ class EaseSpikeWave extends Wave {
 		}
 		f0(t) {
 			t = t - Math.floor(t);
-			if (t <= .5) {
-				return d3.easeSinIn(t / .5);
+			if (t >= .5) {
+				return (d3.easeSinIn(t / .5)-1);
 			} else {
-				return d3.easeSinIn((1-t) /.5);
+				return (d3.easeSinIn((1-t) /.5)-1);
 			} 
 		}
 }
