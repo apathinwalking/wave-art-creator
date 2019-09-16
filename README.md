@@ -1,2 +1,2 @@
-# Wave Art Interpolation Device 3
+# Wave Art Visualization Engine 1
 Generative Wave Art Creator 
